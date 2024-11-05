@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Arial';
+}
+
+.grid{
+    max-width: 700px;
+    width: 90%;
+    height: 500px;
+    margin: 20px auto;
+    outline: 3px solid #000;
+}
+
+.grid__item{
+    color: #fff;
+    font-size: 3rem;
+    text-align: center;
+    background: crimson;
+}
+
+.grid :nth-child(1){
+    background: crimson;
+
+}
+
+.grid :nth-child(2){
+
+    background: darkmagenta;
+
+    
+}
+
+.grid :nth-child(3){
+    background: steelblue;
+}
